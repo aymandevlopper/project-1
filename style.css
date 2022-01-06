@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+     
+}
+body{
+    margin: 0;
+    padding: 0;
+    position: absolut;
+   background-image: url(../test/image/prtfolio-background-436676423.jpg);
+    background-size: cover  ;
+}
+
+.title{
+    padding:5px;
+    text-align: center;
+    height: 40px;
+    color:rgb(71, 33, 5);
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-barr{
+    text-decoration: none;
+    width: 300px;
+    justify-content: center;
+   margin-top: 50px;
+}
+
+
+ul {
+    margin: 0px 1px -20px -130px;
+    width: 160px;
+    height: 300px;
+    position: relative;
+    background-color: rgb(34, 58, 34);
+    padding: 10px;
+    top: -98px;
+    border-radius:7px;
+    transition:  0.7s ease;
+    z-index: 100;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul:hover{
+    transform: translate(74%);
+}
+
+
+ul li{
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    list-style: none;
+}
+ul li:hover{
+    color: rgb(124, 82, 53);
+}
+ span {
+     position: relative;
+     left: 7px;
+    
+ }
+ span i{
+     color: rgb(131, 109, 81);
+}
+
+ #user{
+     position: relative;
+     left: 13px;
+ }
+#tasks{
+    position: relative;
+    left: 23px;
+}
+
+span i:hover{
+    color: rgb(189, 155, 110);
+
+}
+
+
+
+/*button*/
+.button{
+    margin-left: 45%;
+    width: 65px;
+    position: relative;
+    top: -180px;
+}
+.aboute{
+    color: white;
+    font-family: 'Shizuru', cursive;
+    font-size: 14px;
+    background-color:rgb(128, 90, 59) ;
+    border: 2px solid rgb(68, 48, 2);
+    padding: 6px ;
+    width: 95px;
+    border-radius: 8px;
+    transition: 0.10s ease;
+   
+}
+
+.aboute:hover{
+ background-color:rgb(158, 126, 99) ;
+ transform: translateX(10%)  translateY(20%)  translateZ(30%);
+  
+}
+
+/*social mediya link*/
+
+.link-social{
+    position: relative;
+    margin-left: 18px;
+    margin-top:-156px;
+    top: -10px;
+}
+
+i{
+    color: rgb(71, 95, 62);
+     margin-bottom: 20px;
+    margin-left: 25px;
+    padding: 4px;
+    }
+
+
+.link-social :hover{
+    color:rgb(139, 150, 103) ; 
+     animation: left-to-right 0.3s ease;
+    }
+    @keyframes left-to-right{
+        
+        
+        100%{
+            transform: translate(0%);
+        }
+        75%{
+            transform: translate(15%);
+        }
+        50%{
+            transform: translate(-25%);
+        }
+        25%{
+            transform: translate(0%);
+        }
+        0%{
+            transform: translate(25%);
+        }
+    }
+/*paragraphe*/
+
+.para{
+   margin-left: 30%;
+   font-size: 25px;
+   color: rgb(94, 140, 226);
+   font-family: 'Ubuntu', sans-serif;
+   position: relative;
+   top: -200px;
+}
+.hello{
+    color: rgb(102, 97, 67);
+    font-family: 'Shizuru', cursive;
+}
+.hello:hover{
+    color: rgb(58, 55, 37); 
+}
+
+/*copirayt*/
+#copirayt{
+    position: relative;
+    
+}
+
+/*mediya*/
+
+@media (max-width:500px) {
+    .title{
+        background-color: rgb(59, 39, 19);
+        color: #fff;
+        z-index: 102;
+    }
+    ul{
+        margin: 10px 50px 0px 0px; 
+        position: relative;
+        top: -30px;
+        left: 30%;
+        text-align: center;
+      
+    }
+    .para{
+        position: relative;
+        top: 50%;
+    }
+    .button{
+        position: relative;
+        top: 50px;
+    }
+    .link-social{
+        position: relative;
+        top: 200px;
+    }
+    #copirayt{
+      position: relative;
+       top: 210px;
+    }
+}
+
